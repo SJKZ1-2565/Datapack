@@ -1,0 +1,9 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:item",
+        "minecraft:item_frame",
+        "minecraft:experience_orb"
+
+    ]
+}

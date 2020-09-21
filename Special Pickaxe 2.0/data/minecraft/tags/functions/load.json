@@ -1,0 +1,7 @@
+{
+    "values": [
+        "sjkz1:sp_pickaxe/give",
+	    "sjkz1:sp_pickaxe/destroy",
+		"sjkz1:sp_pickaxe/set_score"
+    ]
+}

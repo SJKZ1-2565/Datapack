@@ -1,0 +1,20 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_axe"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 10005
+            },
+            "model": "item/sjkz1/super_axe"
+        },	
+		{
+            "predicate": {
+                "custom_model_data": 10006
+            },
+            "model": "item/sjkz1/spiked_axe"
+        }
+    ]
+}

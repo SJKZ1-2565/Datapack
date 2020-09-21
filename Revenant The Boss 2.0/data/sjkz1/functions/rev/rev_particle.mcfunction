@@ -1,0 +1,10 @@
+execute as @e[nbt={CustomName:'{"color":"red","text":"Revenant Horor"}'}] at @s run particle minecraft:witch ~ ~1.5 ~ 0.1 0.1 0.1 10 10 normal
+
+execute as @a at @s[nbt={Inventory: [{Slot: 100b, id: "minecraft:diamond_boots", Count: 1b, tag: {display: {Name: '{"text":"Revenant Boots","italic":"false","color":"#7f17b0"}'}, Enchantments: [{lvl: 10, id: "protection"}, {lvl: 10, id: "unbreaking"}, {lvl: 1, id: "mending"}]}}]}] run particle minecraft:witch ~ ~0.1 ~ 0.1 0.1 0.1 10 10 normal
+
+execute as @a at @s[nbt={Inventory: [{Slot: 100b, id: "minecraft:diamond_boots", Count: 1b, tag: {display: {Name: '{"text":"Revenant Boots","italic":"false","color":"#7f17b0"}'}, Enchantments: [{lvl: 10, id: "protection"}, {lvl: 10, id: "unbreaking"}, {lvl: 1, id: "mending"}]}}]}] run effect give @s speed 13 5 true
+
+execute as @a at @s[nbt={Inventory:[{Slot: 100b, id: "minecraft:diamond_boots", Count: 1b, tag: { display: {Name: '{"text":"Revenant Boots","italic":"false","color":"#7f17b0"}'}, Enchantments: [{lvl: 10, id: "protection"}, {lvl: 10, id: "unbreaking"}, {lvl: 1, id: "mending"}]}}, {Slot: 101b, id: "minecraft:diamond_leggings", Count: 1b, tag: { display: {Name: '{"text":"Revenant Leggings","italic":"false","color":"#7f17b0"}'}, Enchantments: [{lvl: 10, id: "protection"}, {lvl: 10, id: "unbreaking"}, {lvl: 1, id: "mending"}]}}, {Slot: 102b, id: "minecraft:diamond_chestplate", Count: 1b, tag: { display: {Name: '{"text":"Revenant Chestplate","italic":"false","color":"#7f17b0"}'}, Enchantments: [{lvl: 10, id: "protection"}, {lvl: 10, id: "unbreaking"}, {lvl: 1, id: "mending"}]}}, {Slot: 103b, id: "minecraft:player_head", Count: 1b, tag: {SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhiZWUyM2I1YzcyNmFlOGUzZDAyMWU4YjRmNzUyNTYxOWFiMTAyYTRlMDRiZTk4M2I2MTQxNDM0OWFhYWM2NyJ9fX0="}]}, Id: [I; -275785545, 676744624, -1504261926, 894305861]}, display: {Name: '{"text":"Revenant Head","italic":"false","color":"#a80226"}'}}}],Tags:["rev_function"]}] at @s run effect give @s minecraft:strength 13 3 false
+
+#loop
+schedule function sjkz1:rev/rev_particle 10t

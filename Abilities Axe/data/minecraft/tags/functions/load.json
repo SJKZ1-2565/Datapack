@@ -1,0 +1,9 @@
+{
+    "values": [
+        "sjkz1:custom_axe+/custom_axe_holding",
+		"sjkz1:custom_axe+/modify_score",
+		"sjkz1:custom_axe+/setup_scoreboard",
+		"sjkz1:custom_axe+/check_for_give"
+	
+    ]
+}
