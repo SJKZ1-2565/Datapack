@@ -1,1 +1,0 @@
-execute as @e[nbt={Item: {id: "minecraft:stone", Count: 1b}}] run data merge entity @s {CustomName:'[{"text":"Stone","color":"gold"}]',CustomNameVisible:1b}
